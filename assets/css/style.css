@@ -1,0 +1,21 @@
+.w_100{
+    width: 100% !important;
+    height: 100% !important;
+}
+@media(min-width : 600px){
+.top_navbar{
+    box-shadow: 10px 10px 15px gray !important;
+}
+#top_action_section{
+  display: flex;
+  align-items: center;
+}
+}
+
+.users_list_item .users_list_arrow_icon{
+   transition: all 350ms ease;
+}
+
+.users_list_item.active .users_list_arrow_icon{
+    transform: rotate(180deg);
+}

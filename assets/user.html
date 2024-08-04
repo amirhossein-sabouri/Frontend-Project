@@ -1,0 +1,126 @@
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="/assets/materialize-v1.0.0/materialize/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/util.css">
+      </head>
+      <body>
+            <!--navbar section-----start------->
+
+            <nav class="white z-depth-0 top_navbar">
+                <div class="nav-wrapper">
+                  <a href="#!" class="blue-text hide-on-med-and-up" >مدیریت کاربر</a>
+                  <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text"><i class="material-icons" >menu</i><a>
+                  <ul class="right hide-on-med-and-down">    
+              <li><a href="collapsible.html" class="blue-text">اساتید</a></li>
+              <li><a href="badges.html" class="blue-text">دوره ها</a></li>
+              <li><a href="sass.html"  class="blue-text">دسته بندی ها</a></li>
+              <li><a href="sass.html"  class="blue-text">خانه</a></li>
+                  </ul>
+                </div>
+              </nav>
+            
+              <ul class="sidenav" id="mobile-demo">
+                  <li><div class="user-view">
+                    <div class="background">
+                      <img src="/assets/images/back.jpg" class="w_100">
+                    </div>
+                    <a><img class="circle" src="/assets/images/avatar.png.png"></a>
+                    <a><span class="white-text name">Amir Hossein Sabouri</span></a>
+                    <a><span class="white-text email">sabouriamirhossein9@gmail.com</span></a>
+                  </div></li>
+                  <li><a href="#!"><i class="material-icons">attachment</i>AQ fastlearn</a></li>
+                  <li><a href="#!"><i class="material-icons">attachment</i>Codeyad</a></li>
+                  <li><div class="divider"></div></li>
+                  <li><a class="subheader" ></a></li>
+                  <li><a class="waves-effect">اطلاعات کاربری</a></li>
+                  <li><a class="waves-effect" href="#!">مشاهده پروفایل</a></li>
+                  <li><a class="waves-effect" href="#!">ثبت نظر</a></li>
+                  <li><a class="waves-effect" href="#!">دوره های من</a></li>
+                  <li><a class="waves-effect" href="#!">علاقه مندی ها</a></li>
+                  <li><a class="waves-effect" href="#">خروج</a></li>
+                  </ul>
+        
+          <!--navbar section------------end------->
+          <!---content-----section------------start---------------->
+                  <section id="top_action_section" class="row">
+                    <!-----add button--------------------------------------------->
+                    <div class="p-l-10 p-r-10 p-t-20 col s12 m4 l3">
+                        <button class="waves-effect waves-light btn blue darken-1 p-l-35 p-l-35 w-full rounded_pill flex-c ">
+                            افزودن کاربر
+                            <i class="material-icons m-l-5">add</i>
+                        </button>
+                    </div>
+                    <!------search box--------------------------------------------->
+                        <div class="row col s12 m8 l7">
+                              <input id="search" type="text" class="validate">
+                              <label for="search">
+                                <i class="material-icons pos-relative top-7">search</i>
+                                Search
+                            </label>
+                        </div>
+                        <div class="col l2 hide-on-med-and-down">
+
+                        </div>
+                        </section>
+                        <!--User Section Field -------------------------------------------------------------------->
+                        <section class="user_list_section">
+                        <ul class="collapsible">
+                            <li class="users_list_item">
+                                <div class="collapsible-header right-align-flex"><i class="material-icons blue-text darken-3 users_list_arrow_icon">arrow_drop_down_circle</i>امیرحسین صبوری خسروشاهی</div>
+                                <div class="collapsible-body">
+                                    <div class="p-all-5 right-align-flex">
+                                        <span class="f-bold">نام کاربری :</span>
+                                        <span>Amir#</span>
+                                    </div>
+                                    <div class="p-all-5 right-align-flex">
+                                        <span class="f-bold">ایمیل :</span>
+                                        <span>sabouriamirhossein9@gmail.com</span>
+                                    </div>                                           
+                                </div>
+                              </li>
+                              <li class="users_list_item">
+                                <div class="collapsible-header right-align-flex"><i class="material-icons blue-text darken-3 users_list_arrow_icon">arrow_drop_down_circle</i>میلاد دهیامی</div>
+                                <div class="collapsible-body">
+                                    <div class="p-all-5 right-align-flex">
+                                        <span class="f-bold">نام کاربری :</span>
+                                        <span>Amir#</span>
+                                    </div>
+                                    <div class="p-all-5 right-align-flex">
+                                        <span class="f-bold">ایمیل :</span>
+                                        <span>miladdehyammi9@gmail.com</span>
+                                    </div>                                           
+                                </div>
+                              </li>
+                              <li class="users_list_item">
+                                <div class="collapsible-header right-align-flex"><i class="material-icons blue-text darken-3 users_list_arrow_icon">arrow_drop_down_circle</i>امیرحسین امیری</div>
+                                <div class="collapsible-body">
+                                    <div class="p-all-5 right-align-flex">
+                                        <span class="f-bold">نام کاربری :</span>
+                                        <span>Amiri#</span>
+                                    </div>
+                                    <div class="p-all-5 right-align-flex">
+                                        <span class="f-bold">ایمیل :</span>
+                                        <span>amirhosseinamiri9@gmail.com</span>
+                                    </div>                                           
+                                </div>
+                              </li>
+                        </ul>
+                    </section>
+                        
+                    
+
+                  
+          <!---content-----section-------------end---------------->
+              <script src="/assets/materialize-v1.0.0/materialize/js/materialize.min.js"></script>
+              <script src="/assets/js/app.js"></script>  
+              <script src="/assets/js/user.js"></script>
+      </body>
+      </html>
+    
