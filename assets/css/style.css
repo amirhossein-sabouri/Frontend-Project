@@ -12,10 +12,14 @@
 }
 }
 
-.users_list_item .users_list_arrow_icon{
-   transition: all 350ms ease;
-}
+
 
 .users_list_item.active .users_list_arrow_icon{
     transform: rotate(180deg);
 }
+.users_list_item.active,.users_list_item.users_list_item.active .collapsible-header{
+    background-color: rgba(105, 110, 108, 0.21);
+}
+table.highlight > tbody > tr:hover {
+    background-color: rgba(117, 160, 218, 0.233);
+  }
