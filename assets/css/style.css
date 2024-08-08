@@ -1,3 +1,15 @@
+@font-face {
+    font-family: "BYekan";
+    src: url(/assets/fonts/BYekan/BYekan-webfont.eot) format("eot");
+    src: url(/assets/fonts/BYekan/BYekan-webfont.ttf) format("truetype");
+    src: url(/assets/fonts/BYekan/BYekan-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    direction: rtl;
+    font-family: "BYekan";
+}
 .w_100{
     width: 100% !important;
     height: 100% !important;
@@ -12,8 +24,13 @@
 }
 }
 
-
-
+.sidenav_link_icon{
+    margin: 0 0 0 25px !important;
+}
+.table_class_right{
+    direction: rtl !important;
+    text-align: right !important;
+}
 .users_list_item.active .users_list_arrow_icon{
     transform: rotate(180deg);
 }
@@ -23,3 +40,32 @@
 table.highlight > tbody > tr:hover {
     background-color: rgba(117, 160, 218, 0.233);
   }
+
+  .container{
+    width: 100% !important;
+  }
+.add_user_modal_back{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.add_user_modal{
+    position: fixed;
+    height: 70vh;
+    background-color: white;
+    bottom: 0;
+    z-index: 1000;
+    border-radius: 15px;
+    left: 0;
+    right: 0;
+    bottom: -70vh;
+
+}
+.add_user_modal.show{
+    box-shadow: 0 0 20px 10px  rgb(23, 30, 97) !important;
+    bottom: 0;
+}

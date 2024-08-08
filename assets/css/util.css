@@ -2281,6 +2281,12 @@
 .right-align {
     text-align: right; /* For text alignment */
 }
+.center-align {
+    text-align: center; /* For text alignment */
+}
+.left-align {
+    text-align: left; /* For text alignment */
+}
 .right-align-block {
     float: right;
 }
@@ -2509,7 +2515,9 @@
     transition: all 1s;
 }
 
-
+.rounded_top_30{
+	border-radius: 30px 30px 0 0 !important;
+}
 
 /*[ Layout ]
 ///////////////////////////////////////////////////////////
